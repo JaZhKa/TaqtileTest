@@ -1,0 +1,44 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #282c34;
+	padding: 10px 20px;
+	color: white;
+}
+
+.logo {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.navList {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.navList li {
+	margin: 0 10px;
+}
+
+.navList a {
+	color: white;
+	text-decoration: none;
+}
+
+.navList a:hover {
+	text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+	.navList {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.navList li {
+		margin: 5px 0;
+	}
+}
