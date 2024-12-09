@@ -4,12 +4,12 @@
    ```bash
    git clone git@github.com:JaZhKa/taqtile.git # or the HTTPS URL if you're not using SSH
    cd taqtile
-npm install   # or yarn install
-npm run dev   # or yarn dev
-npm run build  # or yarn build
-npm run preview # or yarn preview
-npm run lint  # or yarn lint
-
+```npm install   # or yarn install  
+npm run dev   # or yarn dev  
+npm run build  # or yarn build  
+npm run preview # or yarn preview  
+npm run lint  # or yarn lint 
+```
    
 # React + TypeScript + Vite
 
